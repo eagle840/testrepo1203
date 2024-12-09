@@ -20,6 +20,10 @@ jobs:
       run: |
         npm install -g jsonlint
 
+    - name: List files
+      run: |
+        ls
+
     - name: Run jsonlint
       run: |
-        jsonlint --quiet /json/test1.json
+        jsonlint --quiet json/test1.json
