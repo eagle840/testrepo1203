@@ -3,10 +3,10 @@ name: JSON Linting
 on:
   push:
     branches:
-      - main
+      - digital
   pull_request:
     branches:
-      - main
+      - digital
 
 jobs:
   lint:
