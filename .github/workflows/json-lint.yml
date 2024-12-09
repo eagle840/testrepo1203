@@ -22,8 +22,8 @@ jobs:
 
     - name: List files
       run: |
-        ls
+        ls -lash
 
     - name: Run jsonlint
       run: |
-        jsonlint  json/*.json
+        find json -name "*.json" -exec jsonlint --quiet {} \;
