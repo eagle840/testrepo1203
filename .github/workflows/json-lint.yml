@@ -26,4 +26,4 @@ jobs:
 
     - name: Run jsonlint
       run: |
-        jsonlint --quiet json/*.json
+        jsonlint  json/*.json
