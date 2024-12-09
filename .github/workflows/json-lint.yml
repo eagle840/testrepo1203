@@ -29,6 +29,7 @@ jobs:
     - name: Run jsonlint
       run: |
         find json -name "*.json" -exec jsonlint --quiet {} \;
+        echo $?
         if [ $? -ne 0 ]; then
           echo "JSON linting failed"
           exit 1
