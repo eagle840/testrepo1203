@@ -26,4 +26,4 @@ jobs:
 
     - name: Run jsonlint
       run: |
-        find json -name "*.json" -exec jsonlint --quiet {} \;
+        find json -name "*.json" -exec jsonlint  {} \;
