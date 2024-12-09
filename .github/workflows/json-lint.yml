@@ -23,6 +23,7 @@ jobs:
     - name: List files
       run: |
         ls -lash
+        exit 1
 
     - name: Run jsonlint
       run: |
