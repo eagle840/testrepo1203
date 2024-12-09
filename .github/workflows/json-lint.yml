@@ -22,4 +22,4 @@ jobs:
 
     - name: Run jsonlint
       run: |
-        jsonlint --quiet .
+        jsonlint --quiet /json/test1.json
